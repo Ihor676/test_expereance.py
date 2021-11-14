@@ -3,6 +3,6 @@ input("<клиент пиечатет:")
 print("Как дела Железный человек ?")
 a=3
 b=6
-print(a)
-print(b)
-print(a+b)
+print(a, end= " ")
+print(b, end= " ")
+print(a+b, end= " ")
