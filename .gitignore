@@ -139,3 +139,4 @@ dmypy.json
 
 # Символы отладки Cython
 cython_debug /
+/lesson_6/
