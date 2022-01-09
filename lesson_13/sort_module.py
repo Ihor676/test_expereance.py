@@ -1,3 +1,11 @@
+"""Модуль содержит функции сортировок последовательностей
+      bubble_sort: функция сортировок методом пузырька
+      sort_stone_method: функция сортировок методом камня
+      insert_sort_method: функция сортировок методом вставки
+"""
+__all__ = ["bubble_sort", "sort_stone_method", "insert_sort_method"]
+
+
 def bubble_sort(array):
 
     n = len(array)
