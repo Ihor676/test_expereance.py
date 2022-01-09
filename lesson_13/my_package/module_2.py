@@ -11,6 +11,11 @@
 
 
 class LoginError(Exception):
+    """
+    Создался простой класс исключений в ветке Exception
+    код в котром будет использоваться обработчик исключений и
+    будет отлавливаться ошибка вашего класса.
+    """
     msg = 'Неверный логин!'
 
     def __init__(self, value=None):
@@ -22,6 +27,9 @@ class LoginError(Exception):
 
 
 def f_login(login):
+    """
+    Функция f_login с параметром login
+    """
     pass_login = 'ihor.i147'
     try:
         if login != pass_login:
@@ -57,6 +65,10 @@ def benchmark(function):
 
 @benchmark
 def linear_search_1(sequence1, look_for1):
+    """
+    Функция линейного поиска linear_search_1 которые принимают 2 параметра
+    sequence2,look_for2
+    """
     i = 0
     length1 = len(sequence1)
     while i < length1 and look_for1 != sequence1[i]:
@@ -72,6 +84,10 @@ compare1 = linear_search_1(random_spisok, random_number)
 
 @benchmark
 def linear_search_2(sequence2, look_for2):
+    """
+    Функция линейного поиска linear_search_2 которые принимают 2 параметра
+    sequence2,look_for2
+    """
     k = 0
     sequence2.append(look_for2)
     lenght2 = len(sequence2)-1
@@ -86,6 +102,12 @@ compare2 = linear_search_2(random_spisok, random_number)
 
 
 def tapeerror():
+    """
+    Функцию используя обрабатку исключений, которая запрашивает ввод двух
+    значений.Если хотя бы одно из них не является числом, то должна
+    выполняться конкатенация, то есть соединение, строк.
+    В остальных случаях введенные числа суммируются.
+    """
     a = input('Введите 1 значение:')
     b = input('Введите 2 значение:')
 

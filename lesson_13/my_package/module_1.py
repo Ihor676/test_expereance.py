@@ -11,6 +11,10 @@ import math
 
 
 def function1(a, x):
+    """
+    Функция должна проверить есть ли в списке 2 числа сума которых
+    еквивалентна числу переданому 2 м параметром.
+    """
     o = 1
     for i in range(0, len(a)):
         for j in range(o, len(a)):
@@ -36,6 +40,9 @@ my_function = list(map(lambda x, y=3: x**y, my_spisok))
 
 
 def prime_numbers(interval):
+    """
+    Функция генератор простых чисел в диапазоне заданых двумя аргументами
+    """
     print("Простые числа от 1 до", interval)
     for i in range(2, interval + 1):
         for j in range(2, int(math.sqrt(i)) + 1):

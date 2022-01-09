@@ -15,3 +15,4 @@ print(module_1.my_function)
 print('создать функцию генератор ПРОСТЫХ чисел в дипазоне заданых 2-мя '
       'аргументами чисел.')
 module_1.prime_numbers(100)
+#print(help(module_1))
