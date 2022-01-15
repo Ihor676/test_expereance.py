@@ -13,7 +13,7 @@ def longest_words(file):
     for i in b:
         if len(i) > len(c):
             c = i
-    print('Dыводит слово, имеющее максимальную длину:---', c)
+    print('Выводит слово, имеющее максимальную длину:---', c)
 
 
 if __name__ == '__main__':
