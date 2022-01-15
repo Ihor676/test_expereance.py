@@ -12,5 +12,6 @@ def tapeerror():
         c = a + b
         print('Сумма чисел:', c)
 
+
 tapeerror()
         
