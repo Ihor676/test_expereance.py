@@ -91,9 +91,9 @@ class NoteBook:
             else:
                 break
         while True:
-            number = input("*Введите номер телефона")
+            number = input("*Введите номер телефона ")
             if number == "":
-                print("то поле не может быть пустым")
+                print("то поле не может быть пустым ")
                 continue
             else:
                 break
